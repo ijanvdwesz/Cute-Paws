@@ -1,0 +1,81 @@
+//for more info on the stying see coments of previous css pages
+body {
+  background-image: url("../cp-images/home-page-background.jpg"); //sets background
+  background-size: cover; //stretches or shrinks it to cover the page
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: Script MT, Brush Script Std, cursive;
+  color: rgb(249, 41, 41);
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+h2 {
+  font-family: Script MT, Brush Script Std, cursive;
+  color: rgb(249, 41, 41);
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+.title-logo img {
+  width: 300px;
+  border-radius: 100px;
+}
+
+.searchForm {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchForm input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 10px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.searchForm button {
+  width: 70px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: rgb(249, 41, 41);
+  cursor: pointer;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.search-icon {
+  height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.contact-input {
+  display: none;
+}
+.hide-show {
+  cursor: pointer;
+}
+//selects the first img with the class then exludes the hearts
+.searchable-item img:not(.heart):first-of-type {
+  width: 300px;
+}
+p {
+  background-color: rgb(246, 120, 141);
+  color: white;
+  border-radius: 10px;
+}
+//this is shared between saved items aswell as cart

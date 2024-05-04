@@ -1,0 +1,164 @@
+<!--see homepage(cute-paws.html )for more discriptive comments-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toys</title>
+  <!--links the css-->
+  <link rel="stylesheet" type="text/css" href="../cp-css/toys.css">
+  <!--links my favicon-->
+  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
+</head>
+<!--sets the background which is the same image -->
+<body background="../cp-images/favicon.jpg">
+  <header>
+    <img src="../cp-images/logo.jpg"
+  class="logo searchable"
+  alt="red heart with 2 pawprints">
+  <div class="title-search">
+    <h1>Toys & Accesories</h1>
+    <div class="search">
+      <form class="searchForm" action="/search" method="GET">
+        <input
+          type="text"
+          class="searchInput"
+          name="searchbar"
+          placeholder="Search..."
+        />
+        <button class="search-button" type="submit">
+          <img class="search-icon" src="../cp-images/search.png"
+          alt="search">
+        </button>
+        <a href="cart.html" target="_blank"
+        class="cart-link">
+          <img src="../cp-images/TakealotCart.png"
+          class="cart"
+          alt="cart"></a>
+      </form>
+    </div>
+  </header>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="divstrip1">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/ball.jpg"
+      class="food-pic"
+      alt="ball">
+      <!--these classes say dogfood becuase i copied most of my css from the dogfood page-->
+      <button class="add">Add to cart</button>
+      </div>
+      <p>This is a pink ball with some bone decorations you can buy this in a variety of colors but im sure that won't matter to your dog </p>
+    </div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="divstrip2">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/dog-sweater.jpg"
+      class="food-pic"
+      alt="dog sweater">
+      <button
+      class="add"
+      >Add to cart
+    </button>
+      </div>
+      <p>Dog sweater,Also available in a variety of colours, Weather (pun intended) your dog is a Pekignese like the one in the photo or a Cane Corso they will certainly love one of these when it gets a bit chilly or even just to look comfy   </p>
+    </div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="divstrip3">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/leash.jpg"
+      class="food-pic"
+      alt="dog leash">
+      <button class="add"
+      >Add to cart
+    </button>
+      </div>
+      <p>A standard leash,
+        It is literally a legal requirement for your dog to be on a leash in most public places (unless otherwise indicated)
+        so if you want to take your dog anywhere you might aswell buy it from us...get a ball too
+      </p>
+      </div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="divstrip4">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/rubber-bone-toy.jpg"
+      class="food-pic"
+      alt="rubber-bone-toy">
+      <button class="add"
+      >Add to cart
+    </button>
+      </div>
+      <p>Pink chewy toy Available in a variety of colors , See it as an investment :This will prevent your dog from chewing on more important things like electrical cables or your shoes...
+        </p>
+        </div>
+    </div>
+  </div>
+    
+  <footer class="footer">
+      <!--hr inserts a horizontal line-->
+      <hr>
+      <form action="mailto:ijanvdwestz@gmail.com" method="POST">
+        <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
+        <h2 class="hide-show">Contact details</h2>
+        <input
+          class="contact-input"
+          placeholder="name"
+          name="name"
+          type="text"
+        />
+        <input
+          class="contact-input"
+          type="email"
+          placeholder="email"
+          name="email"
+        />
+        <input
+          class="contact-input"
+          type="tel"
+          placeholder="Phone number"
+          name="phone-number"
+        />
+        <input
+          class="contact-input"
+          type="text"
+          placeholder="message"
+          name="message"
+        />
+  
+    </div>
+    <div class="submit">
+        <input type="submit" value="Submit"
+        class="submit-button contact-input"
+         />
+        </div>
+      </form>
+      <p>Click&nbsp;
+        <a class="saved-link" href="saved-items.html" target="blank">Here</a>
+        &nbsp;to view Saved for later</p>
+  <p>This website is for display purposes only</p>
+  <p class="disclaimer">Chew toys are not Guaranteed to save your shoes </p>
+  <p>These images are from:
+    https://www.istockphoto.com/
+  </p>
+</footer>
+<!--links Jquery and JS-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../cp-scripts/cp-script.js"></script>
+    
+</script>
+</body>
+</html>
+<!--images from link above-->

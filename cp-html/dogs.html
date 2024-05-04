@@ -1,0 +1,176 @@
+<!--see homepage for comments on the markup functions ect ...didnt want to double comment-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dog Breeds</title>
+  <link rel="stylesheet" type="text/css" href="../cp-css/dogs.css">
+  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+  <img src="../cp-images/logo.jpg"
+  class="logo searchable"
+  alt="heart& paw logo">
+  <div class="title-search">
+    <h1>Available Breeds</h1>
+    <div class="search">
+      <form class="searchForm" action="/search" method="GET">
+        <input
+          type="text"
+          class="searchInput"
+          name="searchbar"
+          placeholder="Search..."
+        />
+        <button class="search-button" type="submit">
+          <img class="search-icon" src="../cp-images/search.png"
+          alt="magnifying glass">
+        </button>
+      </form>
+    </div>
+    <h2 class="big-text searchable">Small Breeds</h2>
+  </header>
+<div class="small-breeds">
+  <ul>
+    <li>
+      <div class="card searchable savable-item comments like"
+      id="card1">
+        <h2>Chihuahua</h2>
+        <img src="../cp-images/chihuahua.jpg"
+        class="dog-image"
+        alt="chihuahua ">
+      </div>
+    </li>
+    
+    <li>
+      <div class="card searchable savable-item comments like"
+      id="card2">
+        <h2>Pekingese</h2>
+        <img src="../cp-images/pekingese.jpg"
+        class="dog-image"
+        alt="pekingese">
+      </div>
+    </li>
+    
+    <li>
+      <div class="card searchable savable-item comments like"
+      id="card4">
+        <h2>Minature Schnauzer</h2>
+        <img src="../cp-images/schnauzer.jpg"
+        class="dog-image"
+        alt="Schnauzer">
+      </div>
+    </li>
+  </ul>
+</div>
+
+<h2 class="big-text">Large Breeds</h2>
+<div class="large-breeds searchable">  
+  <ul>
+    <li>
+      <div class="card searchable savable-item
+      comments like"
+      id="card5">
+        <h2>Dogo Argentino</h2>
+        <img src="../cp-images/dogo.jpg"
+        class="dog-image"
+        alt="dogo argentino">
+      </div>
+    </li>
+    
+    <li>
+      <div class="card searchable savable-item
+      comments like"
+      id="card6">
+      
+        <h2>Pit Bull</h2>
+        <img src="../cp-images/pit-bull.jpg"
+        class="dog-image"
+        alt="pit-bull">
+      </div>
+    </li>
+    
+    <li>
+      <div class="card searchable savable-item comments like">
+        <h2>Cane Corso</h2>
+        <img src="../cp-images/cane-corso.jpg"
+        class="dog-image"
+        alt="cane-corso">
+      </div>
+    </li>
+  </ul>
+</div>
+<footer class="searchable">
+   <!--contact details-->
+   <div class="searchable">
+   <h2 class="hide-show">Contact details</h2>
+    <p class="contact-input">Its as easy as selecting your ideal dog breed and leaving your contact info and well get back to you shortly</p>
+    <!--contact me form using POST method for sensitive information and the action is set to my email-->
+    <form action="mailto:ijanvdwestz@gmail.com" method="POST">
+      <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
+      <input
+        class="contact-input"
+        placeholder="Dog breed"
+        name="breed"
+        type="text"
+      />
+      <input
+        class="contact-input"
+        placeholder="name"
+        name="name"
+        type="text"
+      />
+      <input
+        class="contact-input"
+        type="email"
+        placeholder="email"
+        name="email"
+      />
+      <input
+        class="contact-input"
+        type="tel"
+        placeholder="Phone number"
+        name="phone-number"
+      />
+      <input
+        class="contact-input"
+        type="text"
+        placeholder="message"
+        name="message"
+      />
+   <!-- Radio buttons for gender selection -->
+   <div class="gender">
+    <p class="contact-input">Select gender of puppy</p>
+    <input type="radio" id="male" name="gender" value="male"
+    class="contact-input">
+    <label for="male" class="contact-input">Male</label>
+    <input type="radio" id="female" name="gender" value="female" class="contact-input">
+    <label for="female" class="contact-input">Female</label>
+  </div>
+  <div class="submit contact-input">
+      <input type="submit" value="Submit"
+      class="submit-button contact-input"
+       />
+      </div>
+    </form>
+    <p class="contact-input" >
+    <a   href="mailto:ijanvdwestz@gmail.com"> email Us &nbsp;</a>Or Call:&nbsp;<a
+        href="tel:0746115605"
+        >0746115605</a
+      >
+    </p>
+    <br>
+    <p>Click&nbsp;
+      <a class="saved-link" href="saved-items.html" target="blank">Here</a>
+      &nbsp;to view Saved for later</p>
+</footer>
+<!--these pics are from 
+https://www.istockphoto.com/
+except for the pekingese which is from https://pixabay.com/-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../cp-scripts/cp-script.js"></script>
+    
+</script>
+</body>
+</html>

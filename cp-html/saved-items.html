@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../cp-css/saved-items.css">
+  <!--inserts my favicon-->
+  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
+  <title>Saved 4 later</title>
+</head>
+<body>
+  <div class="title-logo searchable">
+    <!--inserts a image(the logo image)-->
+    <img src="../cp-images/logo.jpg"
+    alt="heart logo"
+    >
+<!--the top page name/title/heading-->
+<h1>Save for later</h1>
+</div>
+<!--inserts my searchForm which doesnt currently work because i didnt link any js-->
+<div class="search">
+  <form class="searchForm" action="/search" method="GET">
+    <input
+      type="text"
+      class="searchInput"
+      name="searchbar"
+      placeholder="Search..."
+    /><!--my classes are for css targeting purposes-->
+    <button class="search-button" type="submit">
+      <img class="search-icon" src="../cp-images/search.png"
+      alt="search-icon">
+    </button>
+  </form>
+  <!--dynamically generated(in js) <li>saved-items</li> will display here -->
+  <ul class="saved-items-list">
+
+
+  </ul>
+  <footer class="searchable">
+    <!--hr inserts a horizontal line-->
+    <hr>
+    <form action="mailto:ijanvdwestz@gmail.com" method="POST">
+      <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
+      <h2 class="hide-show">Contact details</h2>
+      <input
+        class="contact-input"
+        placeholder="name"
+        name="name"
+        type="text"
+      />
+      <input
+        class="contact-input"
+        type="email"
+        placeholder="email"
+        name="email"
+      />
+      <input
+        class="contact-input"
+        type="tel"
+        placeholder="Phone number"
+        name="phone-number"
+      />
+      <input
+        class="contact-input"
+        type="text"
+        placeholder="message"
+        name="message"
+      />
+
+  </div>
+  <div class="submit">
+      <input type="submit" value="Submit"
+      class="submit-button contact-input"
+       />
+      </div>
+    </form>
+  <!--link to homepage-->
+  <a href="cute-paws.html">Homepage</a>
+  </footer>
+  <!--Links to jquery and external js -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../cp-scripts/cp-script.js"></script>
+</body>
+</html>

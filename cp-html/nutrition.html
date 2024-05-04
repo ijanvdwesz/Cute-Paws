@@ -1,0 +1,202 @@
+<!--for additional comments see homepage(cute-paws.html)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition</title>
+  <link rel="stylesheet" type="text/css" href="../cp-css/nutrition.css">
+  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
+</head>
+<!--adds my background(i used the favicon due to its small size i didnt style it with css becuase i wanted it to repeat across the screen and create a pattern)-->
+<body background="../cp-images/favicon.jpg">
+  <header>
+    <img src="../cp-images/logo.jpg"
+  class="logo searchable"
+  alt="heart logo">
+  <div class="title-search">
+    <h1>Nutrition</h1>
+    <div class="search">
+      <form class="searchForm" action="/search" method="GET">
+        <input
+          type="text"
+          class="searchInput"
+          name="searchbar"
+          placeholder="Search..."
+        />
+        <button class="search-button" type="submit">
+          <img class="search-icon" src="../cp-images/search.png"
+          alt="magnifying glass">
+        </button>
+        <!--from my takealot copy page-->
+        <a href="cart.html" target="_blank"
+        class="cart-link">
+        <img src="../cp-images/TakealotCart.png"
+        class="cart"
+        alt="cart"></a>
+      </form>
+    </div>
+  </header>
+  <div class="page-content">
+    
+    <div class="strip searchable savable-item
+    comments like"
+    id="srip1">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/turkey-lamb.jpg"
+      class="food-pic"
+      alt="dogfood">
+      <button class="add">Add to cart</button>
+      </div>
+      <p>Hypro dogfood is well balanced nutritionally and grain free making it suitable for all breeds. Recomended by some of the worlds leading Veterinarians as a "go-to" for your puppy
+        due to it being so compatible with their digestive systems </p>
+        </div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="strip2">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/fresh-pet.jpg"
+      class="food-pic"
+      alt="dogfood">
+      <button
+      class="add"
+      >Add to cart</button>
+      </div>
+      <p>Woolworths dogfood is well balanced nutritionally and grain free making it suitable for all medium sized breeds(this one has fish in it). Recomended by some of the worlds leading Veterinarians as a "go-to" for your adult medium sized dog
+        due to it being so compatible with their digestive systems </p>
+      </div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="strip3">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/grain free.jpg"
+      class="food-pic"
+      alt="dogfood">
+      <button 
+      class="add">Add to cart</button>
+      </div>
+      <p>Grain Free dogfood is well balanced nutritionally and grain free making it suitable for all medium sized breeds(this one has less meat in it). Recomended by some of the worlds leading Vegetarians as a "go-to" for your adult medium sized dog
+        due to it having less meat in it </p>
+    </div>
+      </div>
+  </div>
+  <div class="page-content">
+    <div class="strip searchable savable-item comments like"
+    id="strip4">
+    <div class="card-p">
+      <div class="card">
+      <img src="../cp-images/kangaroo-turkey.jpg"
+      class="food-pic"
+      alt="dogfood">
+      <button class="add"
+      >Add to cart
+    </button>
+      </div>
+      <p>Hypro dogfood is well balanced nutritionally and grain free making it suitable for all breeds(this one has kangaroo meat in it). Recomended by some of the worlds leading Veterinarians as a "go-to" for your Active
+        Adult dog(With less than 2% fat, kangaroo is one of the healthiest meat choices you can make.)
+        </p>
+        </div>
+    </div>
+  </div>
+  <!--changed the table into divs with classes to create dropdown-->
+  <h2>Feeding Chart</h2>
+  <div class="dropdown feeding-chart searchable savable-item comments like">
+    <div class="submenu">
+      <h3 class="submenu-title"><img src="../cp-images/tiny-toy.png"
+        alt="toy-dog"></h3>
+      <div class="submenu-body">
+        <p>Dog Size:  1.3kg-4.5kg</p>
+        <p>0.75cups - 2.3cups per day</p>
+      </div>
+    </div>
+    <div class="submenu">
+      <h3 class="submenu-title"><img src="../cp-images/small-dog.png"
+        alt="small-dog"></h3>
+      <div class="submenu-body">
+        <p>Dog size: 4.5kg - 13.6kg </p>
+        <p>1.3 cups - 6 cups per day</p>
+      </div>
+    </div>
+    <div class="submenu">
+      <h3 class="submenu-title"><img src="../cp-images/medium.png"
+        alt="medium sized dog"></h3>
+      <div class="submenu-body">
+        <p>Dog size: 13.6kg - 27.2kg</p>
+        <p>6cups-10.3cups per day</p>
+      </div>
+    </div>
+    <div class="submenu">
+      <h3 class="submenu-title"><img src="../cp-images/large.png"
+        alt="large dog"></h3>
+      <div class="submenu-body">
+        <p>Dog size: 27.2kg - 45.3kg</p>
+        <p>6 cups - 10.3cups cups per day</p>
+      </div>
+    </div>
+    <div class="submenu">
+      <h3 class="submenu-title"><img src="../cp-images/x-large.png"></h3>
+      <div class="submenu-body">
+        <p>Dog size: 45.3kg - 80kg</p>
+        <p>7cups - 11 cups cups per day</p>
+      </div>
+    </div>
+  </div>
+    
+  </div>
+  <footer class="searchable">
+    <!--hr inserts a horizontal line-->
+    <hr>
+    <form action="mailto:ijanvdwestz@gmail.com" method="POST">
+      <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
+      <h2 class="hide-show">Contact details</h2>
+      <input
+        class="contact-input"
+        placeholder="name"
+        name="name"
+        type="text"
+      />
+      <input
+        class="contact-input"
+        type="email"
+        placeholder="email"
+        name="email"
+      />
+      <input
+        class="contact-input"
+        type="tel"
+        placeholder="Phone number"
+        name="phone-number"
+      />
+      <input
+        class="contact-input"
+        type="text"
+        placeholder="message"
+        name="message"
+      />
+
+  </div>
+  <div class="submit">
+      <input type="submit" value="Submit"
+      class="submit-button contact-input"
+       />
+      </div>
+    </form>
+    <p>Click&nbsp;
+      <a class="saved-link" href="saved-items.html" target="blank">Here</a>
+      &nbsp;to view Saved for later</p>
+  <p>This website is for display purposes only</p>
+  <p class="disclaimer searchable">Please do not feed your dog based on any of the information on this page </p>
+  <p>My dog size images are screenshots from:https://www.gallant.com/blog/how-much-to-feed-your-dog</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../cp-scripts/cp-script.js"></script>
+</body>
+</html>
+<!--the dogfood pics however are from googling dogfood and getting the pic from the brand owners site which link i unfortunetly lost-->

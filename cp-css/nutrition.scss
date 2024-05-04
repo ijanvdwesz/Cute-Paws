@@ -1,0 +1,153 @@
+//if a style is not commented its commented in cute-paws.scss or dogs.scss
+body {
+  align-items: center;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  width: 300px;
+  height: 350px;
+  border-radius: 100px;
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between; //adds space between
+  width: 100%;
+}
+
+.searchForm input[type="text"] {
+  //makes my searchbar the full lenght of its division then minus the width of the button
+  width: calc(100% - 70px);
+  padding: 10px;
+  //margin-right: 10px;
+  //makes only the left side rounder so i can make my searchfield and button appear to be one rounded bar
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.searchForm button {
+  width: 70px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: rgb(249, 41, 41);
+  cursor: pointer;
+  //makes only the right side rounder so i can make my searchfield and button appear to be one rounded bar
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.search-icon {
+  height: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.title-search {
+  width: 900px;
+}
+.title-search h1 {
+  text-align: center;
+  font-family: Script MT, Brush Script Std, cursive;
+  font-size: 120px;
+  color: rgb(249, 41, 41);
+  text-decoration: underline;
+}
+.cart {
+  margin-left: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.strip {
+  margin-left: 360px;
+  width: 600px;
+  margin-top: 45px;
+  background-color: pink;
+  border-radius: 50px;
+}
+
+.food-pic {
+  width: 200px;
+  height: 300px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.strip p {
+  margin-top: 25px;
+  background-color: pink;
+  border-color: rgb(249, 41, 41);
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px;
+  border-radius: 20px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Script MT, Brush Script Std, cursive;
+  font-size: 120px;
+  color: rgb(249, 41, 41);
+  text-decoration: underline;
+}
+.add {
+  background-color: rgb(249, 41, 41);
+  color: white;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 200px;
+}
+.card-p {
+  display: flex;
+  flex-direction: row;
+}
+.feeding-chart {
+  background-color: rgb(249, 41, 41);
+  color: white;
+  border-color: white;
+  border-width: 8px;
+  border-style: solid; //sets boreder style to solid for it to appear
+}
+
+.dropdown {
+  width: 550px; //makes the width 550 pixels
+  margin: 0 auto; //and clears the margin
+  border-radius: 10px;
+}
+.submenu {
+  background-color: rgb(254, 136, 156);
+  color: yellow;
+  padding: 20px 30px; //creates padding
+  border-radius: 8px;
+  cursor: pointer; //makes cursor a pointer
+  margin-bottom: 5px;
+}
+
+.submenu-title {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  text-decoration: underline; //underlines headings
+}
+.submenu-body {
+  display: none;
+  //hides the menu items this is neccessary for accordian effect
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+}
+.disclaimer {
+  color: red;
+  font-weight: bold; //makes it bold
+  text-decoration: underline;
+}
+.contact-input {
+  display: none; //hides it for now(see js)
+}
+.hide-show {
+  cursor: pointer;
+}

@@ -1,0 +1,95 @@
+body {
+  //ads a background image
+  background-image: url("../cp-images/home-page-background.jpg");
+  background-size: cover; //sets the background to cover the page
+  background-position: center; //positions the background
+  display: flex; //alows flex styling
+  align-items: center; //aligns all content in body to center
+  flex-direction: column; //stack body content
+}
+.title-logo {
+  //styles this divs class
+  display: flex;
+  flex-direction: row; //ensures it displays next to eachother
+}
+h1 {
+  font-family: Script MT, Brush Script Std, cursive; //chooses my font for h1
+  color: rgb(249, 41, 41); //sets the color
+  font-size: 100px; //sets the size
+  text-decoration: underline; //underlines the h1 text
+}
+h2 {
+  font-family: Script MT, Brush Script Std, cursive;
+  color: rgb(249, 41, 41);
+  text-decoration: underline;
+}
+ul {
+  list-style: none; //removes the dots
+}
+.title-logo img {
+  width: 300px; //sets the width
+  border-radius: 100px; //makes it round
+}
+.searchForm {
+  display: flex;
+  justify-content: space-between; //flex style that adds  equal space between content
+  width: 100%; //sets width to occupy the entire container
+}
+
+.searchForm input[type="text"] {
+  //makes my searchbar the full lenght of its division then minus the width of the button
+  width: calc(100% - 70px);
+  padding: 10px; //adds padding inspect page to see padding
+  //makes only the left side rounder so i can make my searchfield and button appear to be one rounded bar
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.searchForm button {
+  width: 70px;
+  height: 40px; //sets the height
+  padding: 5px 10px;
+  background-color: rgb(249, 41, 41);
+  cursor: pointer; //cursor becomes a little hand when over button
+  //makes only the right side rounder so i can make my searchfield and button appear to be one rounded bar
+  border-top-right-radius: 25px; //makes only specified corners round
+  border-bottom-right-radius: 25px;
+}
+
+.search-icon {
+  height: 30px;
+  margin-bottom: 20px; //adds margin to bottom
+  padding-bottom: 20px; //adds padding to bottom
+}
+
+.list {
+  display: flex;
+  align-items: center; //flex that centers content
+  font-family: Script MT, Brush Script Std, cursive;
+  color: rgb(249, 41, 41);
+  font-size: 50px;
+  text-decoration: underline; //underlines text
+}
+.list-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column; //stacks elements in column
+}
+.list-image {
+  height: 450px;
+  width: 600px;
+  border-radius: 50px;
+}
+.list-card h2:last-child {
+  //targets only the last h2 of the list-card class
+  margin-right: 140px;
+}
+.list-card h2:nth-child(-n + 2) {
+  //targets the first 2
+  margin-left: 140px;
+}
+.contact-input {
+  display: none;
+}
+.hide-show {
+  cursor: pointer;
+}

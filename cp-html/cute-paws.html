@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Paws</title>
+  <!--links my css-->
+  <link rel="stylesheet" type="text/css" href="../cp-css/cute-paws.css">
+  <!--inserts my favicon-->
+  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <!--divs are styling purposes-->
+    <div class="title-logo searchable">
+      <!--inserts a image(the logo image)-->
+      <img src="../cp-images/logo.jpg"
+      alt="heart logo">
+<!--the top page name/title/heading-->
+  <h1>Cute Paws</h1>
+  </div>
+  <!--inserts my searchForm which doesnt currently work because i didnt link any js-->
+  <div class="search">
+    <form class="searchForm" action="/search" method="GET">
+      <input
+        type="text"
+        class="searchInput"
+        name="searchbar"
+        placeholder="Search..."
+      /><!--my classes are for css & js targeting purposes-->
+      <button class="search-button" type="submit">
+        <img class="search-icon" src="../cp-images/search.png"
+        alt="search-icon">
+      </button>
+    </form>
+  </div>
+  <h2>Welcome to the No1 Dogbreeding Site</h2>
+  <p>* on this side of Thabazimbi</p>
+  </header>
+  <div class="list">
+  <ul>
+    <div class="list-card searchable savable-item comments like"
+    id="div1">
+    <li><!--target blank opens the link on a new page-->
+      <a href="dogs.html"  target="_blank">
+        <h2>Dogbreeds</h2>
+        <img src="../cp-images/dogo-argentino-puppy.jpeg
+        " alt="dogo-puppy"
+        class="list-image"
+      >
+      </a>
+    </li>
+</div>
+<div class="list-card searchable savable-item comments like"
+id="div2">
+    <li>
+      <a href="nutrition.html"  target="_blank">
+        <h2>Nutrition</h2>
+        <img src="../cp-images/dog-food.jpg"
+        alt="dog-food"
+        class="list-image">
+      </a>
+    </li>
+    </div>
+    <div class="list-card searchable savable-item
+    comments like"
+    id="div3">
+    <li>
+      <a href="toys.html"  target="_blank">
+        <h2>Accessories</h2>
+        <img src="../cp-images/dog-toys.jpg"
+        alt="jack-russel with some dog toys"
+        class="list-image">
+      </a>
+    </li>
+    </div>
+  </ul>
+  </div>
+  <footer class="searchable">
+    <!--hr inserts a horizontal line-->
+    <hr>
+    <form action="mailto:ijanvdwestz@gmail.com" method="POST">
+      <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
+      <h2 class="hide-show">Contact details</h2>
+      <input
+        class="contact-input"
+        placeholder="name"
+        name="name"
+        type="text"
+      />
+      <input
+        class="contact-input"
+        type="email"
+        placeholder="email"
+        name="email"
+      />
+      <input
+        class="contact-input"
+        type="tel"
+        placeholder="Phone number"
+        name="phone-number"
+      />
+      <input
+        class="contact-input"
+        type="text"
+        placeholder="message"
+        name="message"
+      />
+
+  </div>
+  <div class="submit">
+      <input type="submit" value="Submit"
+      class="submit-button contact-input"
+       />
+      </div>
+    </form>
+    <p>OR <br>
+    <a href="mailto:ijanvdwestz@gmail.com"> email Us &nbsp;
+      <br>
+    </a>Call:&nbsp;<a
+        href="tel:0746115605"
+        >0746115605</a
+      >
+      <!--this quote was a task requirement for previous task-->
+  <p >Bart: [in a poor British accent] It was Christmas, sir. We saved him and he saved us. Now we love the dog, and the dog gives us all the love we could handle. Love.
+    [The jury murmurs in admiration]<br>
+   <a href=" https://simpsons.fandom.com/wiki/Dogtown/Quotes">" https://simpsons.fandom.com/wiki/Dogtown/Quotes"</a></p>
+   <!--Link to saved items list-->
+   <p>Click&nbsp;
+    <a class="saved-link" href="saved-items.html" target="blank">Here</a>
+    &nbsp;to view Saved for later</p>
+  </footer>
+  <!--links jquery and external js-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="../cp-scripts/cp-script.js"></script>
+    
+  </script>
+</body>
+</html>
+<!--my images are from the following sites:
+Favicon=>https://www.freepik.com/
+i forgot where i got the dogo puppy pic
+grassy field(background) and dogtoy=>https://www.istockphoto.com/
+ and the dogfood is from=>https://www.animalalliancenyc.org/-->
