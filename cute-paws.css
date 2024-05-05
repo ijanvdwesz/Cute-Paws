@@ -1,7 +1,6 @@
-//for more info on the stying see coments of previous css pages
 body {
-  background-image: url("cp-images/home-page-background.jpg"); //sets background
-  background-size: cover; //stretches or shrinks it to cover the page
+  background-image: url("cp-images/home-page-background.jpg");
+  background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
@@ -41,7 +40,7 @@ ul {
   width: 100%;
 }
 
-.searchForm input[type="text"] {
+.searchForm input[type=text] {
   width: calc(100% - 70px);
   padding: 10px;
   border-top-left-radius: 25px;
@@ -63,19 +62,40 @@ ul {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+
+.list {
+  display: flex;
+  align-items: center;
+  font-family: Script MT, Brush Script Std, cursive;
+  color: rgb(249, 41, 41);
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.list-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list-image {
+  height: 450px;
+  width: 600px;
+  border-radius: 50px;
+}
+
+.list-card h2:last-child {
+  margin-right: 140px;
+}
+
+.list-card h2:nth-child(-n+2) {
+  margin-left: 140px;
+}
+
 .contact-input {
   display: none;
 }
+
 .hide-show {
   cursor: pointer;
-}
-//selects the first img with the class then exludes the hearts
-.searchable-item img:not(.heart):first-of-type {
-  width: 300px;
-}
-p {
-  background-color: rgb(246, 120, 141);
-  color: white;
-  border-radius: 10px;
-}
-//this is shared between saved items aswell as cart
+}/*# sourceMappingURL=cute-paws.css.map */

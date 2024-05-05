@@ -205,10 +205,10 @@ let liked = false;
 //stores my images in an array(images are different sizes of same image)
 $(function () {
   let heartImgs = [
-    "../cp-images/favicon.jpg",
-    "../cp-images/logo-38.jpg",
-    "../cp-images/logo-45.jpg",
-    "../cp-images/logo-52.jpg",
+    "cp-images/favicon.jpg",
+    "cp-images/logo-38.jpg",
+    "cp-images/logo-45.jpg",
+    "cp-images/logo-52.jpg",
   ];
 
   // lets the current index be the first(smallest)
@@ -247,7 +247,7 @@ $(function () {
 
   // adds the hearts to .like class items
   $(".like").append(
-    '<img src="../cp-images/favicon.jpg" alt="heart-icon" class="heart">'
+    '<img src="cp-images/favicon.jpg" alt="heart-icon" class="heart">'
   );
 });
 
