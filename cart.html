@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../cp-css/saved-items.css">
+  <title>Cute Paws Cart</title>
+  <link rel="stylesheet" type="text/css" href="/cp-css/saved-items.css">
   <!--inserts my favicon-->
-  <link rel="icon" href="../cp-images/favicon.jpg" type="image/x-icon">
-  <title>Saved 4 later</title>
+  <link rel="icon" href="cp-images/favicon.jpg" type="image/x-icon">
 </head>
 <body>
   <div class="title-logo searchable">
     <!--inserts a image(the logo image)-->
-    <img src="../cp-images/logo.jpg"
+    <img src="cp-images/logo.jpg"
     alt="heart logo"
     >
 <!--the top page name/title/heading-->
-<h1>Save for later</h1>
+<h1>Cart</h1>
 </div>
 <!--inserts my searchForm which doesnt currently work because i didnt link any js-->
 <div class="search">
@@ -25,19 +25,19 @@
       class="searchInput"
       name="searchbar"
       placeholder="Search..."
-    /><!--my classes are for css targeting purposes-->
+    /><!--my classes are for css and js targeting purposes-->
     <button class="search-button" type="submit">
       <img class="search-icon" src="../cp-images/search.png"
       alt="search-icon">
     </button>
   </form>
-  <!--dynamically generated(in js) <li>saved-items</li> will display here -->
-  <ul class="saved-items-list">
-
-
-  </ul>
+ 
   <footer class="searchable">
     <!--hr inserts a horizontal line-->
+    <ul class="cart-items-list">
+      <li></li>
+      
+        </ul>
     <hr>
     <form action="mailto:ijanvdwestz@gmail.com" method="POST">
       <!--Then i add the input fields with a placeholder so u know what to type there and name attribute to identify data entered when submitted -->
@@ -74,11 +74,15 @@
        />
       </div>
     </form>
-  <!--link to homepage-->
+    <!--link for my saved items page inside a paragraph-->
+    <p>Click&nbsp;
+      <a class="saved-link" href="saved-items.html" target="blank">Here</a>
+      &nbsp;to view Saved for later</p>
+      <!--link to cute paws homepage-->
   <a href="index.html">Homepage</a>
   </footer>
-  <!--Links to jquery and external js -->
+  <!--attaches jquery and my external js file-->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../cp-scripts/cp-script.js"></script>
+  <script src="cp-scripts/cp-script.js"></script>
 </body>
 </html>
