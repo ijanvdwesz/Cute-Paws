@@ -98,4 +98,53 @@ ul {
 
 .hide-show {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .title-logo img {
+    width: 200px;
+  }
+  .list {
+    font-size: 40px;
+  }
+  .list-image {
+    height: 300px;
+    width: 400px;
+  }
+  .list-card h2:last-child {
+    margin-right: 77px;
+  }
+  .list-card h2:nth-child(-n+2) {
+    margin-left: 77px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .title-logo img {
+    width: 150px;
+  }
+  .list {
+    font-size: 30px;
+  }
+  .list-image {
+    height: 200px;
+    width: 300px;
+  }
+  .list-card h2:last-child {
+    margin-right: 90px;
+  }
+  .list-card h2:nth-child(-n+2) {
+    margin-left: 90px;
+  }
 }/*# sourceMappingURL=cute-paws.css.map */

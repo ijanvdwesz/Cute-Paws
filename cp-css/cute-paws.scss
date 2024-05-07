@@ -1,6 +1,6 @@
 body {
   //ads a background image
-  background-image: url("cp-images/home-page-background.jpg");
+  background-image: url("../cp-images/home-page-background.jpg");
   background-size: cover; //sets the background to cover the page
   background-position: center; //positions the background
   display: flex; //alows flex styling
@@ -92,4 +92,61 @@ ul {
 }
 .hide-show {
   cursor: pointer;
+}
+//adjusts display to fit specified screensize
+@media only screen and (max-width: 768px) {
+  
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .title-logo img {
+    width: 200px;
+  }
+  .list {
+    font-size: 40px;
+  }
+  .list-image {
+    height: 300px;
+    width: 400px;
+  }
+
+  .list-card h2:last-child {
+    //targets only the last h2 of the list-card class
+    margin-right: 77px;
+  }
+  .list-card h2:nth-child(-n + 2) {
+    //targets the first 2
+    margin-left: 77px;
+  }
+}
+//adjusts display to fit specified screensize
+@media only screen and (max-width: 480px) {
+
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .title-logo img {
+    width: 150px;
+  }
+  .list {
+    font-size: 30px;
+  }
+  .list-image {
+    height: 200px;
+    width: 300px;
+  }
+  .list-card h2:last-child {
+    //targets only the last h2 of the list-card class
+    margin-right: 90px;
+  }
+  .list-card h2:nth-child(-n + 2) {
+    //targets the first 2
+    margin-left: 90px;
+  }
 }
