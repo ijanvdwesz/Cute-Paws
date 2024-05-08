@@ -130,7 +130,39 @@ ul {
   }
   h2 {
     font-size: 30px;
+    
   }
+footer{
+margin-left:30px;
+}
+p{
+display:flex;
+flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 1.0; 
+    margin-bottom: 1em;} 
+  .searchForm {
+    display: flex;
+    justify-content: space-between; //flex style that adds  equal space between content
+    width: 100%; //sets width to occupy the entire container
+  }
+  
+  .searchForm input[type="text"] {
+    //makes my searchbar the full lenght of its division then minus the width of the button
+    width: calc(100% - 35px);
+  
+  }
+  .searchForm button {
+    width: 40px;
+    height: 40px; //sets the height
+    padding: 9px 0px;
+  }
+  
+  .search-icon {
+    height: 20px;
+  
+  }
+
   .title-logo img {
     width: 150px;
   }
