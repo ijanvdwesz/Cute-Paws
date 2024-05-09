@@ -168,61 +168,60 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .logo {
-    width: 200px; /* Adjust logo size for smaller screens */
+    width: 200px;
     height: 250px;
-    border-radius: 50px; /* Adjust border radius */
+    border-radius: 50px;
   }
   .searchForm input[type=text] {
-    width: calc(100% - 50px); /* Adjust search input width */
+    width: calc(100% - 50px);
   }
   .searchForm button {
-    width: 50px; /* Adjust search button width */
-    height: 45px; /* Adjust search button height */
-    padding: 5px; /* Adjust padding */
+    width: 50px;
+    height: 45px;
+    padding: 5px;
   }
   .title-search {
-    width: 90%; /* Adjust title-search width */
-    margin: 0 auto; /* Center align */
+    width: 90%;
+    margin: 0 auto;
   }
   .strip {
-    margin-left: 0; /* Reset margin left */
-    width: 90%; /* Adjust strip width */
-    margin-top: 30px; /* Adjust margin top */
+    margin-left: 0;
+    width: 90%;
+    margin-top: 30px;
   }
   .food-pic {
-    width: 150px; /* Adjust food-pic size */
+    width: 150px;
     height: 200px;
-    border-radius: 20px; /* Adjust border radius */
+    border-radius: 20px;
   }
   .strip p {
-    margin-top: 15px; /* Adjust margin top */
-    padding: 10px; /* Adjust padding */
-    border-width: 1px; /* Adjust border width */
-    border-radius: 15px; /* Adjust border radius */
+    margin-top: 15px;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 15px;
   }
   h2 {
-    font-size: 60px; /* Adjust font size */
+    font-size: 60px;
   }
   .add {
-    width: 150px; /* Adjust button width */
-    font-size: 16px; /* Adjust font size */
+    width: 150px;
+    font-size: 16px;
   }
-  /* Add more adjustments for other elements as needed */
 }
 /* Media query for screens between 480px and 768px (small tablets) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .logo {
-    width: 250px; /* Adjust logo size for tablets */
+    width: 250px;
     height: 300px;
-    border-radius: 75px; /* Adjust border radius */
+    border-radius: 75px;
   }
   .searchForm input[type=text] {
-    width: calc(100% - 60px); /* Adjust search input width */
+    width: calc(100% - 60px);
   }
   .searchForm button {
-    width: 60px; /* Adjust search button width */
-    height: 45px; /* Adjust search button height */
-    padding: 6px; /* Adjust padding */
+    width: 60px;
+    height: 45px;
+    padding: 6px;
   }
   .title-search {
     width: 90%;
