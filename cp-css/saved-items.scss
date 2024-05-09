@@ -79,3 +79,79 @@ p {
   border-radius: 10px;
 }
 //this is shared between saved items aswell as cart
+
+/* Media query for screens smaller than 480px (typical phones) */
+@media screen and (max-width: 480px) {
+  .title-logo img {
+    width: 200px;
+    border-radius: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .searchForm input[type="text"] {
+    width: calc(100% - 50px);
+  }
+
+  .searchForm button {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  .searchable-item img:not(.heart):first-of-type {
+    width: 200px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-left:0px;
+    margin-right:20px;
+
+  }
+
+  /* Add more adjustments for other elements as needed */
+}
+
+/* Media query for screens between 480px and 768px (small tablets) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .title-logo img {
+    width: 250px; 
+    border-radius: 75px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .searchForm input[type="text"] {
+    width: calc(100% - 60px);
+  }
+
+  .searchForm button {
+    width: 60px;
+    height: 40px;
+    padding: 6px;
+  }
+
+  .searchable-item img:not(.heart):first-of-type {
+    width: 250px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-left: 0px;
+    margin-right:20px;
+  }
+
+}

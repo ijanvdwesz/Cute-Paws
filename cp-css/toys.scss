@@ -134,3 +134,119 @@ h2 {
 .page-content {
   margin-left: 315px;
 }
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+  }
+
+  .searchForm input[type="text"] {
+    width: calc(100% - 50px);
+  }
+
+  .searchForm button {
+    width: 50px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  .title-search {
+    width: 90%; 
+    margin: 0 auto;
+  }
+
+  .strip {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .food-pic {
+    width: 150px;
+    height: 200px;
+  }
+
+  .strip p {
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  .add {
+    width: 150px;
+    font-size: 16px;
+  }
+
+  .page-content {
+    margin-left: 0;
+  }
+}
+
+/* Media query for screens between 480px and 768px (small tablets) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    width: 250px;
+    height: 300px;
+    border-radius: 75px;
+  }
+
+  .searchForm input[type="text"] {
+    width: calc(100% - 60px);
+  }
+
+  .searchForm button {
+    width: 60px;
+    height: 40px;
+    padding: 6px;
+  }
+
+  .title-search {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .strip {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .food-pic {
+    width: 200px;
+    height: 250px;
+  }
+
+  .strip p {
+    margin-left: 0;
+    margin-right: 0;
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+
+  .add {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .page-content {
+    margin-left: 0;
+  }
+}
