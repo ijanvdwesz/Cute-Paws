@@ -144,4 +144,42 @@ p {
 
 p.contact-input {
   width: 1000px;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 200px;
+    height: 250px;
+    border-radius: 50px;
+  }
+  .searchForm input[type=text] {
+    width: calc(100% - 50px);
+  }
+  .searchForm button {
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+  }
+  .big-text {
+    font-size: 40px;
+  }
+}
+/* Media queries for screens between 480px and 768px (small tablets) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    width: 250px;
+    height: 300px;
+    border-radius: 75px;
+  }
+  .searchForm input[type=text] {
+    width: calc(100% - 60px);
+  }
+  .searchForm button {
+    width: 60px;
+    height: 35px;
+    padding: 6px;
+  }
+  .big-text {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=dogs.css.map */
