@@ -42,6 +42,34 @@ header {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+.navbar{ 
+  background-color:red;
+  margin-top: 5px;
+  border-radius: 5px;
+  border-color: white;
+  border-style:solid;
+  border-width:3px;
+  display:flex;
+  flex-direction: row;
+
+}
+.nav-link{
+  margin-right: 150px;
+ background-color:red;
+ border:solid;
+ border-color: white;
+ color:white;
+ border-radius: 5px;
+}
+.nav-link:hover{
+  margin-right:150px;
+ background-color:white;
+ border:solid;
+ border-color:red;
+ color:blue;
+ cursor:pointer;
+ border-radius: 5px;
+}
 .small-breeds,
 .large-breeds {
   display: flex;
@@ -144,6 +172,10 @@ p.contact-input {
     height: 30px;
     padding: 5px;
   }
+  //needs to be ammended for better display
+  .nav-link {
+    margin-right: 65px;
+  }
 
   .big-text {
     font-size: 40px;
@@ -169,7 +201,10 @@ p.contact-input {
     height: 35px; 
     padding: 6px;
   }
-
+  //needs to be ammended for better display
+  .nav-link {
+    margin-right: 65px;
+  }
   .big-text {
     font-size: 50px;
   }

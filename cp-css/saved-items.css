@@ -63,6 +63,32 @@ ul {
   padding-bottom: 20px;
 }
 
+.navbar {
+  background-color: pink;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  margin-right: 180px;
+  background-color: red;
+  border: solid;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  margin-right: 180px;
+  background-color: white;
+  border: solid;
+  border-color: red;
+  color: blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .contact-input {
   display: none;
 }
@@ -101,6 +127,12 @@ p {
     height: 40px;
     padding: 5px;
   }
+  .navbar {
+    width: 90%;
+  }
+  .nav-link {
+    margin-right: 25px;
+  }
   .searchable-item img:not(.heart):first-of-type {
     width: 200px;
   }
@@ -130,6 +162,12 @@ p {
     width: 60px;
     height: 40px;
     padding: 6px;
+  }
+  .navbar {
+    width: 90%;
+  }
+  .nav-link {
+    margin-right: 65px;
   }
   .searchable-item img:not(.heart):first-of-type {
     width: 250px;

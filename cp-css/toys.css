@@ -54,6 +54,31 @@ header {
   margin-left: 20px;
 }
 
+.navbar {
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  margin-right: 250px;
+  background-color: red;
+  border: solid;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  margin-right: 250px;
+  background-color: white;
+  border: solid;
+  border-color: red;
+  color: blue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -168,6 +193,9 @@ h2 {
     width: 90%;
     margin: 0 auto;
   }
+  .nav-link {
+    margin-right: 45px;
+  }
   .strip {
     width: 90%;
     margin: 30px auto;
@@ -184,10 +212,10 @@ h2 {
     font-size: 16px;
   }
   h1 {
-    font-size: 60px;
+    font-size: 5px;
   }
   h2 {
-    font-size: 60px;
+    font-size: 5px;
   }
   .add {
     width: 150px;
@@ -216,6 +244,9 @@ h2 {
     width: 90%;
     margin: 0 auto;
   }
+  .nav-link {
+    margin-right: 65px;
+  }
   .strip {
     width: 90%;
     margin: 30px auto;
@@ -232,10 +263,10 @@ h2 {
     font-size: 18px;
   }
   h1 {
-    font-size: 80px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 80px;
+    font-size: 30px;
   }
   .add {
     width: 180px;

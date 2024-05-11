@@ -2,6 +2,7 @@
 body {
   align-items: center;
 }
+
 header {
   display: flex;
   flex-direction: row;
@@ -54,6 +55,29 @@ header {
 }
 .cart {
   margin-left: 20px;
+}
+.navbar{ 
+  background-color: pink;
+  display:flex;
+  flex-direction: row;
+  width:100%;
+}
+.nav-link{
+  margin-right: 250px;
+ background-color:red;
+ border:solid;
+ border-color: white;
+ color:white;
+ border-radius: 5px;
+}
+.nav-link:hover{
+  margin-right: 250px;
+ background-color:white;
+ border:solid;
+ border-color:red;
+ color:blue;
+ cursor:pointer;
+ border-radius: 5px;
 }
 .card {
   display: flex;
@@ -173,6 +197,10 @@ h2 {
     margin: 0 auto;
   }
 
+
+  .nav-link {
+    margin-right: 40px;
+  }
   .strip {
     margin-left: 0;
     width: 90%;
@@ -201,7 +229,6 @@ h2 {
     font-size: 16px;
   }
 
- 
 }
 
 /* Media query for screens between 480px and 768px (small tablets) */
@@ -225,6 +252,10 @@ h2 {
   .title-search {
     width: 90%;
     margin: 0 auto;
+  }
+//needs to be ammended for better display
+  .nav-link {
+    margin-right: 65px;
   }
 
   .strip {
@@ -253,5 +284,6 @@ h2 {
   .add {
     width: 180px;
     font-size: 18px;
-  }
+ 
+ }
 }
