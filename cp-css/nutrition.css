@@ -194,16 +194,18 @@ h2 {
 
 @media screen and (max-width: 480px) {
   .logo {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
     border-radius: 25px;
+    margin-top: 15px;
   }
   .title-search h1 {
-    font-size: 50px;
-    width: 200px;
+    font-size: 75px;
+    width: 300px;
+    margin: 20px;
   }
   .search {
-    width: 300px;
+    width: 350px;
   }
   .searchForm input[type=text] {
     width: calc(100% - 50px);
@@ -231,6 +233,7 @@ h2 {
     padding: 10px;
     border-width: 1px;
     border-radius: 15px;
+    width: 56%;
   }
   h2 {
     font-size: 60px;
