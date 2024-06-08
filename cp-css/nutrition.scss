@@ -177,11 +177,18 @@ h2 {
 }
 @media screen and (max-width: 480px) {
   .logo {
-    width: 200px;
-    height: 250px;
-    border-radius: 50px; 
+    width: 75px;
+    height: 75px;
+    border-radius: 25px; 
   }
 
+  .title-search h1{
+    font-size: 50px;
+    width: 200px;
+  }
+.search{
+  width:300px;
+}
   .searchForm input[type="text"] {
     width: calc(100% - 50px);
   }
@@ -191,12 +198,6 @@ h2 {
     height: 45px;
     padding: 5px;
   }
-
-  .title-search {
-    width: 90%;
-    margin: 0 auto;
-  }
-
 
   .nav-link {
     margin-right: 40px;
@@ -220,6 +221,7 @@ h2 {
     border-radius: 15px;
   }
 
+
   h2 {
     font-size: 60px;
   }
@@ -228,7 +230,9 @@ h2 {
     width: 150px;
     font-size: 16px;
   }
-
+.feeding-chart{
+  width: 90%;
+}
 }
 
 /* Media query for screens between 480px and 768px (small tablets) */
@@ -253,6 +257,7 @@ h2 {
     width: 90%;
     margin: 0 auto;
   }
+  
 //needs to be ammended for better display
   .nav-link {
     margin-right: 65px;
@@ -276,6 +281,10 @@ h2 {
     border-width: 1px;
     border-radius: 15px;
   }
+
+h1{
+  font-size: 10px;
+}
 
   h2 {
     font-size: 70px;
